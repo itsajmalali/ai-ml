@@ -1,0 +1,87 @@
+1. Intelligence
+
+Intelligence is the ability to learn, understand, think, solve problems and make decisions.
+
+Example: A student solving a maths problem.
+
+2. Artificial Intelligence (AI)
+
+AI is a branch of Computer Science that makes machines perform tasks that normally require human intelligence.
+
+Examples: ChatGPT, Siri, self-driving cars.
+
+3. State Space Problems
+
+A State Space Problem is an AI problem where we move from an initial state to a goal state using different actions.
+
+Main components:
+
+- Initial State – Starting point.
+- Goal State – Final target.
+- States – Possible situations.
+- Operators – Actions.
+- Constraints – Rules to follow.
+
+4. Types of State Space Problems
+
+A. Water Jug Problem
+
+- Two jugs: 4L and 3L.
+- Goal: Measure exactly 2L.
+- Actions: Fill, empty and pour.
+- Initial State: (0,0).
+- Goal State: (2,0).
+
+B. Missionaries and Cannibals (Priests and Cannibals)
+
+- Three missionaries and three cannibals must cross a river.
+- Boat carries maximum two people.
+- Cannibals must not outnumber missionaries on either bank when missionaries are present.
+- Initial State: (3,3,L).
+- Goal State: (0,0,R).
+
+C. 8-Puzzle Problem
+
+- Contains 8 numbered tiles and one empty space.
+- Goal: Arrange numbers from 1 to 8.
+- Actions: Move empty space up, down, left or right.
+- Initial State: Random arrangement.
+- Goal State: Ordered arrangement.
+
+-------------------------------------------------------
+
+Jug A - 4L & Jug B - 3L
+
+1. both empty
+2. A empty
+3. B empty
+4. both full
+5. A full
+6. B full
+7. pour A to B
+8. pour B to A
+
+solution
+
+1 ---> 6 ---> 8 ---> 6 ---> 8 ---> 2 ---> 8
+
+----------------------------------------------------------
+
+A - priest & B - cannibal
+L - left side of river & R - right side of l
+
+1. AB from L - R
+2. AA from L - R
+3. BB from L - R
+4. A from L - R
+5. B from L - R
+6. AB from R - L
+7. AA from R - L
+8. BB from R - L
+9. A from R - L
+10. B from R - L
+
+solution
+
+1 ---> 9 ---> 3 ---> 10 ---> 2 ---> 10 ---> 3 ---> 10 ---> 3
+
